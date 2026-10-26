@@ -52,16 +52,5 @@ The forecasting notebook estimates empirical prediction intervals from held-out 
 5. Repeat across multiple seeds; report mean and standard deviation.
 6. Avoid claiming generalization from synthetic-only experiments.
 
-## Suggested viva questions
-- Why use chronological rather than random splitting?
-- How can scaling on the full dataset leak future information?
-- What is the difference between prediction and control?
-- Why must the reward penalize discomfort?
-- How do crossover and mutation affect exploration in GA?
-- How does PPO's clipped objective limit large policy updates?
-- Why is the no-optimization baseline essential?
-- Which variables are measured and which are simulated?
-- What are the limitations of a custom thermal simulator compared with EnergyPlus?
-
 ## Executable controller benchmark
 `08_evaluation/controller_benchmark.py` runs matched-profile comparisons for no optimization, rule-based control, GA-only, PPO-only and GA+PPO. PPO-dependent rows are omitted if no trained policy is passed. The hybrid controller combines the GA battery plan with a conservative PPO battery adjustment while retaining PPO's HVAC/EV/lighting actions. Use the same profile and seed across methods; interpret results only after checking comfort and SOC constraints.
