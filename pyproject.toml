@@ -1,0 +1,8 @@
+[project]
+name = "gridmind-is2"
+version = "1.0.0"
+description = "Smart building energy management with LSTM, genetic optimization and PPO"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

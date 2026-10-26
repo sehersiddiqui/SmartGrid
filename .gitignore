@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+artifacts/*
+!artifacts/.gitkeep
+data/*
+!data/.gitkeep
+*.db
+*.sqlite
+*.zip
