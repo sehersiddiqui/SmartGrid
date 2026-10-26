@@ -1,4 +1,4 @@
-# ⚡ GridMind — Smart Energy Management (IS2)
+# ⚡ GridMind — Smart Energy Management (Intelligent Systems)
 
 **Forecast → Optimize → Control → Evaluate.** A research-style smart-building energy management system based on the attached 45-page project specification.
 
